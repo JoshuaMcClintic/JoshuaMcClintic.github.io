@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Career Goals</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+
+            <div>
+            <!-- Header -->
+                <h1>Joshua McClintic</h1>
+
+                <!-- Navigation -->
+                <nav>
+                    <span>
+                        <a class="nav-link" href="cover-letter.html">Cover Letter</a>
+                    </span>
+                    <span>
+                        <a class="nav-link" href="resume.html">Resume</a>
+                    </span>
+                </nav>
+                <hr>
+            </div>
+        </header>
+
+        <!-- Main -->
+        <main>
+            
+            <p>
+                While this is listed as a "career goals" page, I don't really have any well defined goals at the moment outside of "get hired", 
+                so I'm not entirely sure what would be best to put here. Ultimately, I decided on showing off some minor interests, as well as 
+                a video showing some of my skill in python.
+            </p>
+
+            <div id="content">
+
+            <!-- Image -->
+            <!-- Pixel art made by me. -->
+            <section class="graphic_design">
+                <img src="img/Witch_Sleep.png" alt="sleeping witch girl">
+                <p><em>Art by me</a></em></p>
+            </section>
+
+            <!-- Audio -->
+            <!-- Waldesrauschen, by Liszt, performed by Gregor Quende at www.classicals.de. Liszt is one of my favorite musicians. -->
+            <!-- Classicals.de allows users to freely copy and distribute the performances for non-commercial use. -->
+            <audio style="padding-left: 20px;" src="audio/Waldesrauschen. Vivace.mp3" controls></audio>
+            <p><em>Liszt's Waldesrauschen, performed by <a href="https://www.classicals.de/liszt-s145">Gregor Quende</a></em></p> <br> <br> <br> <br>
+
+            <!-- Video -->
+            <!-- File size was reduced from original size to meet maximum file size requirements for submission -->
+            <video style="padding-left: 20px;" id="python_vid" src="vid/Joshua-McClintic_JGN1_reduced.mp4" alt="python project demonstration" controls width="720"></video>
+            <p><em>Video demonstration for project for python class at WGU</em></p> <br> <br>
+            
+            <!-- Bad time simulator -->
+            <!-- Recreation of the Sans fight from Undertale by Toby Fox, made by Jcw87 on Github https://github.com/Jcw87 -->
+            <a href="https://jcw87.github.io/c2-sans-fight/" class="hidden" target="_blank">You found me!</a> 
+            
+            <br>
+            <br>
+            <hr>
+
+            <h2>Contact form</h2>
+            <!-- Contact Form -->
+            <section id="contact">
+                <form action="https://wp.zybooks.com/forms-viewer.php" method="post" enctype="multipart/form-data">
+                    <lable for="f_name">First Name:</lable><br>
+                    <input type="text" id="f_name" name="f_name"><br>
+
+                    <lable for="l_name">Last Name:</lable><br>
+                    <input type="text" id="l_name" name="l_name"><br>
+
+                    <lable for="comp_name">Company Name:</lable><br>
+                    <input type="text" id="comp_name" name="comp_name"><br>
+
+                    <lable for="email_addr">Email Address:</lable><br>
+                    <input type="text" id="email_addr" name="email_addr"><br>
+                    
+                    <lable for="number">Phone Number:</lable><br>
+                    <input type="text" id="number" name="number"><br>
+
+                    <lable for="message">Message:</lable><br>
+                    <textarea id="message" name="message"></textarea><br>
+
+                    <fieldset>
+                        <legend>Best Contact Window</legend>
+                        <input type="radio" id="am" name="best_time" value="am">
+                        <lable for="am">AM</lable><br>
+                        <input type="radio" id="pm" name="best_time" value="pm">
+                        <lable for="pm">PM</lable><br>
+                        <input type="radio" id="anytime" name="best_time" value="anytime">
+                        <lable for="anytime">Anytime</lable><br>
+                    </fieldset>
+
+                    <label for="contact_method">Preferred Contact Method: </label>
+                    <select name="contact_method" id="contact_method">
+                        <option value="call">Call</option>
+                        <option value="email">Email</option>
+                        <option value="text">Text</option>
+                    </select> <br> <br>
+
+                    <button type="submit">Submit</button>
+                    <button type="reset">Clear Form</button>
+                </form>
+            </section>
+        </main>
+        </div>
+
+        <script>
+            let vid = document.getElementById("python_vid");
+            vid.volume = 0.1;
+        </script>
+    </body>
+
+    
+</html>
