@@ -84,3 +84,14 @@ li {
     padding-left: 15px;
     font-size: medium;
 }
+
+.certs {
+    padding-left: 15px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+#cert_info {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
