@@ -57,6 +57,10 @@ ul {
     padding-right: 30px;
 }
 
+.sim_an_badge {
+    float: right;
+}
+
 audio {
     padding-top: 30px;
 }
